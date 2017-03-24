@@ -1,0 +1,83 @@
+[*]
+[*] GTKWave Analyzer v3.3.72 (w)1999-2016 BSI
+[*] Sat Dec 10 12:57:48 2016
+[*]
+[dumpfile] "/home/010772879@SJSUAD.SJSU.EDU/272/arb_400atposedge/arb.vpd"
+[dumpfile_mtime] "Sat Dec 10 12:29:55 2016"
+[dumpfile_size] 932064
+[savefile] "/home/010772879@SJSUAD.SJSU.EDU/272/arb_400atposedge/arb1.gtkw"
+[timestart] 7071
+[size] 1366 669
+[pos] -1 -1
+*-5.151225 7070 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[sst_width] 229
+[signals_width] 311
+[sst_expanded] 1
+[sst_vpaned_height] 163
+@28
+top.bm0.clk
+top.bm0.rst
+@200
+-Mast0
+@28
+top.bm0.grant
+@22
+top.bm0.req[3:0]
+top.a.mr0_req[3:0]
+@24
+top.a.mr0_rst_balance_reg[31:0]
+top.a.mr0_prior[31:0]
+@28
+top.bm0.xfr
+@200
+-Mast1
+@28
+top.bm1.grant
+@22
+top.bm1.req[3:0]
+top.a.mr1_req[3:0]
+@24
+top.a.mr1_rst_balance_reg[31:0]
+top.a.mr1_prior[31:0]
+@28
+top.bm1.xfr
+@200
+-Mast2
+@28
+top.bm2.grant
+@22
+top.bm2.req[3:0]
+top.a.mr2_req[3:0]
+@24
+top.a.mr2_rst_balance_reg[31:0]
+top.a.mr2_prior[31:0]
+@200
+-Mast3
+@28
+top.bm3.grant
+@22
+top.bm3.req[3:0]
+top.a.mr3_req[3:0]
+@24
+top.a.mr3_rst_balance_reg[31:0]
+top.a.mr3_prior[31:0]
+top.bm3.DataFromSlave[31:0]
+top.bm3.DataToSlave[31:0]
+@28
+top.a.flagsv[1:0]
+@24
+top.a.mr0_rst_balance_reg[31:0]
+top.a.mr1_rst_balance_reg[31:0]
+top.a.mr1_balance[31:0]
+top.a.mr2_rst_balance_reg[31:0]
+top.a.mr2_balance[31:0]
+top.a.mr3_rst_balance_reg[31:0]
+top.a.rst_count[31:0]
+@22
+top.bm3.addr[31:0]
+top.bm2.addr[31:0]
+top.bm1.addr[31:0]
+top.bm0.addr[31:0]
+[pattern_trace] 1
+[pattern_trace] 0
