@@ -125,9 +125,6 @@ module arb(bmif.mstrR mr0, bmif.mstrR mr1, bmif.mstrR mr2, bmif.mstrR mr3, svif.
 			else if ((mr2_prior > mr0_prior) && (mr2_prior > mr1_prior)) begin
 				mr0.grant = 0; mr1.grant = 0; mr2.grant = 1; mr3.grant = 0;
 			end
-			else if ((mr1_prior == mr2_prior) && (mr1_prior > mr0_prior)) begin
-				mr0.grant = 0; mr1.grant = 1; mr2.grant = 0; mr3.grant = 0;
-			end
 		end
 		else if ((mr0_req == mr2_req) && (mr0_req > mr1_req) && (mr0_req > mr3_req)) begin
 			if (mr0_prior > mr2_prior) begin
