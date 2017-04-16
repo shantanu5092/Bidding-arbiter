@@ -53,12 +53,12 @@ module arb(bmif.mstrR mr0, bmif.mstrR mr1, bmif.mstrR mr2, bmif.mstrR mr3, svif.
 		   		mr2_balance <= mr2_balance - mr2.req;
 		   	else if(mr3.grant)
 		   		mr3_balance <= mr3_balance - mr3.req;
-		   else begin
-			mr0_balance <= mr0_balance;
-		 	mr1_balance <= mr1_balance;
-			mr2_balance <= mr2_balance;
-			mr3_balance <= mr3_balance;
-		   end
+		   	else begin
+				mr0_balance <= mr0_balance;
+		 		mr1_balance <= mr1_balance;
+				mr2_balance <= mr2_balance;
+				mr3_balance <= mr3_balance;
+		   	end
 		end
 		//-----------------Master0-----------------------------
 		if(mr0.grant)begin
