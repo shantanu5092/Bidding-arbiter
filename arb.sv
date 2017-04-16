@@ -25,6 +25,8 @@ module arb(bmif.mstrR mr0, bmif.mstrR mr1, bmif.mstrR mr2, bmif.mstrR mr3, svif.
 		////---------------Master3-----------------------------
 		mr3_balance		<= 900;
 		mr3_prior		<= 0;
+		
+		rst_clock		<= 0;
 	end
 	else begin
 		if (rst_count == rst_clock) begin
